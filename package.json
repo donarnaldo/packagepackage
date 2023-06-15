@@ -1,28 +1,17 @@
 {
-    "name": "package",
-    "version": "1.0.0",
-    "description": "A description of my project",
-    "author": "Teodoro Arnaldo Pena Dipiton",
-    "license": "MIT",
-    "keywords": ["keyword1", "keyword2"],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/your-username/my-project.git"
-    },
-    "dependencies": {
-      "dependency1": "^1.0.0",
-      "dependency2": "^2.3.1"
-    },
-    "devDependencies": {
-      "devDependency1": "^1.2.0",
-      "devDependency2": "^0.5.0"
-    },
-    "scripts": {
-      "start": "node index.js",
-      "test": "mocha"
-    },
-    "engines": {
-      "node": ">=12.0.0",
-      "npm": ">=6.0.0"
-    }
-  }
+  "name": "tapd-back-end-package-json",
+  "author": "teodoro",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+ 
+}
+{
+    
